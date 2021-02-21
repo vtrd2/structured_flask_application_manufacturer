@@ -3,7 +3,7 @@ from scripts import *
 from config import Config
 
 if len(sys.argv) <= 1:
-    dir = '.'
+    dir = '.\\application'
     filename = 'default_file_name'
 elif len(sys.argv) == 2:
     dir = sys.argv[1]
